@@ -11,12 +11,12 @@ class _BotCommands:
         self.CancelAllCommand = f'cancelall{CMD_INDEX}'
         self.ListCommand = f'list{CMD_INDEX}'
         self.SearchCommand = f'search{CMD_INDEX}'
-        self.StatusCommand = f'status'
+        self.StatusCommand = f'status{CMD_INDEX}'
         self.AuthorizedUsersCommand = f'users{CMD_INDEX}'
         self.AuthorizeCommand = f'authorize{CMD_INDEX}'
         self.UnAuthorizeCommand = f'unauthorize{CMD_INDEX}'
-        self.AddSudoCommand = f'addsudo{CMD_INDEX}'
-        self.RmSudoCommand = f'rmsudo{CMD_INDEX}'
+        self.AddSudoCommand = f'addsudo'
+        self.RmSudoCommand = f'rmsudo'
         self.PingCommand = f'ping{CMD_INDEX}'
         self.RestartCommand = f'restart{CMD_INDEX}'
         self.StatsCommand = f'stats{CMD_INDEX}'
@@ -52,3 +52,4 @@ class _BotCommands:
         self.ClearLocalsCommand = f'clearlocals{CMD_INDEX}'
 
 BotCommands = _BotCommands()
+
