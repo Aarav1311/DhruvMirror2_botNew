@@ -9,9 +9,9 @@ class _BotCommands:
         self.ZipMirrorCommand = f'zipmirror{CMD_INDEX}'
         self.CancelMirror = f'cancel{CMD_INDEX}'
         self.CancelAllCommand = f'cancelall{CMD_INDEX}'
-        self.ListCommand = f'list{CMD_INDEX}'
+        self.ListCommand = f'list'
         self.SearchCommand = f'search{CMD_INDEX}'
-        self.StatusCommand = f'status{CMD_INDEX}'
+        self.StatusCommand = f'status'
         self.AuthorizedUsersCommand = f'users{CMD_INDEX}'
         self.AuthorizeCommand = f'authorize{CMD_INDEX}'
         self.UnAuthorizeCommand = f'unauthorize{CMD_INDEX}'
@@ -52,4 +52,3 @@ class _BotCommands:
         self.ClearLocalsCommand = f'clearlocals{CMD_INDEX}'
 
 BotCommands = _BotCommands()
-
